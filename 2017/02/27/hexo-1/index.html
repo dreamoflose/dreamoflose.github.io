@@ -23,7 +23,7 @@
 <meta property="og:image" content="http://om1ci69wa.bkt.clouddn.com/git_pages4.png">
 <meta property="og:image" content="http://om1ci69wa.bkt.clouddn.com/git_pages5.png">
 <meta property="og:image" content="http://om1ci69wa.bkt.clouddn.com/git_pages6.png">
-<meta property="og:updated_time" content="2017-02-27T14:03:13.144Z">
+<meta property="og:updated_time" content="2017-02-27T14:21:23.681Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用hexo写博客">
 <meta name="twitter:description" content="很早之前就想写一个博客，可是一直找不到好的tool。  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。  今天就用github pages搭建，github真是好东西，大家都知道。
@@ -72,9 +72,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://www.weiparty.com"></form>
@@ -121,15 +121,15 @@
 <h3 id="三-生成博客"><a href="#三-生成博客" class="headerlink" title="三.生成博客"></a>三.生成博客</h3><p>1.本地服务器</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate       #自动根据当前目录下文件,生成静态网页</div><div class="line">$ hexo server         #运行本地服务</div></pre></td></tr></table></figure>
 <p>打开 <a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a></p>
-<p>2.更新到远程<br>修改_config.yml </p>
+<p>2.更新到远程<br>修改_config.yml<br>自定义域名:把CNAME文件放到当前目录source文件下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    type: git</div><div class="line">    repository: git@github.com:weswu/weswu.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure>
 <p>发布到github</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo deploy          #生成.deploy_git文件</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.weiparty.com/2017/02/27/hexo-1/" data-id="cizo6w1d70001nkcxh5keoixs" class="article-share-link">Share</a>
+      <a data-url="http://www.weiparty.com/2017/02/27/hexo-1/" data-id="cizo70vub0001wgcxlgcbsjgm" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -140,7 +140,7 @@
   
   
     <a href="/2017/02/26/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Ancien</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -173,7 +173,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
@@ -198,7 +198,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 Wes<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
