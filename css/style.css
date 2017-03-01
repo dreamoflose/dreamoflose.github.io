@@ -110,13 +110,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-@font-face {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
-}
 html,
 body,
 #container {
@@ -405,7 +398,6 @@ body {
   opacity: 1;
 }
 .nav-icon {
-  font-family: FontAwesome;
   text-align: center;
   font-size: 14px;
   width: 14px;
@@ -485,7 +477,7 @@ body {
   top: 50%;
   right: 10px;
   margin-top: -7px;
-  font: 13px FontAwesome;
+  font-size: 13px;
   border: none;
   background: none;
   color: #bbb;
@@ -715,7 +707,6 @@ a.article-title:hover {
 }
 .article-comment-link:before {
   content: "\f075";
-  font-family: FontAwesome;
   padding-right: 8px;
 }
 .article-share-link {
@@ -724,8 +715,6 @@ a.article-title:hover {
   margin-left: 20px;
 }
 .article-share-link:before {
-  content: "\f064";
-  font-family: FontAwesome;
   padding-right: 6px;
 }
 #article-nav {
@@ -864,7 +853,6 @@ a.article-title:hover {
 .article-share-pinterest:before,
 .article-share-google:before {
   font-size: 20px;
-  font-family: FontAwesome;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -880,29 +868,17 @@ a.article-title:hover {
 .article-share-google:hover {
   color: #fff;
 }
-.article-share-twitter:before {
-  content: "\f099";
-}
 .article-share-twitter:hover {
   background: #00aced;
   text-shadow: 0 1px #008abe;
-}
-.article-share-facebook:before {
-  content: "\f09a";
 }
 .article-share-facebook:hover {
   background: #3b5998;
   text-shadow: 0 1px #2f477a;
 }
-.article-share-pinterest:before {
-  content: "\f0d2";
-}
 .article-share-pinterest:hover {
   background: #cb2027;
   text-shadow: 0 1px #a21a1f;
-}
-.article-share-google:before {
-  content: "\f0d5";
 }
 .article-share-google:hover {
   background: #dd4b39;
