@@ -48,7 +48,7 @@
         
           <a id="nav-rss-link" class="nav-icon iconfont icon-subscription" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon iconfont icon-search" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon iconfont icon-search" title="搜索"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//www.baidu.com/baidu" method="get" accept-charset="UTF-8" class="search-form">
@@ -63,12 +63,63 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo-2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/02/hexo-2/" class="article-date">
+  <time datetime="2017-03-02T15:05:17.000Z" itemprop="datePublished">2017-03-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/02/hexo-2/">hexo 认识</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png" alt="zespia"><br>
+        
+          <p class="article-more-link">
+            <a href="/2017/03/02/hexo-2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.weiparty.com/2017/03/02/hexo-2/" data-id="cizsj6qoj0001dscxaldsu0ss" class="article-share-link iconfont icon-forward">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hexo-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/02/27/hexo-1/" class="article-date">
   <time datetime="2017-02-27T12:36:34.000Z" itemprop="datePublished">2017-02-27</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -85,80 +136,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>  很早之前就想写一个博客，可是一直找不到好的tool。<br>  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。<br>  今天就用github pages搭建，github真是好东西，大家都知道。</p>
-<h3 id="一-hexo"><a href="#一-hexo" class="headerlink" title="一.hexo"></a>一.hexo</h3><p>本地安装Node<br>1.安装 hexo</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
-<p>2.建立一个博客文件夹，并初始化博客<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo init 文件名</div><div class="line">$ cd 文件名</div></pre></td></tr></table></figure></p>
-<p>3.安装依赖包,生成node_modules文件夹<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
-<h3 id="二-github"><a href="#二-github" class="headerlink" title="二.github"></a>二.github</h3><p>github账号<br>1.新建项目   用户名.github.io</p>
-<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages1.png" alt="wes"></p>
-<p>2.设置</p>
-<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages2.png" alt="wes"><br><img src="http://om1ci69wa.bkt.clouddn.com/git_pages3.png" alt="wes"></p>
-<p>3.自定义二级域名<br>新建CNAME文件,内容域名</p>
-<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages4.png" alt="wes"><br><img src="http://om1ci69wa.bkt.clouddn.com/git_pages5.png" alt="wes"></p>
-<p>4.域名服务商 设置域名解析地址</p>
-<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages6.png" alt="wes"></p>
-<h3 id="三-生成博客"><a href="#三-生成博客" class="headerlink" title="三.生成博客"></a>三.生成博客</h3><p>1.本地服务器</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate       #自动根据当前目录下文件,生成静态网页</div><div class="line">$ hexo server         #运行本地服务</div></pre></td></tr></table></figure>
-<p>打开 <a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a></p>
-<p>2.更新到远程<br>修改_config.yml<br>自定义域名:把CNAME文件放到当前目录source文件下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    type: git</div><div class="line">    repository: git@github.com:weswu/weswu.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure>
-<p>发布到github</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo deploy          #生成.deploy_git文件</div></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://www.weiparty.com/2017/02/27/hexo-1/" data-id="cizr2m1j40001docxvhf62l7e" class="article-share-link iconfont icon-forward">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/02/26/hello-world/" class="article-date">
-  <time datetime="2017-02-26T14:57:27.688Z" itemprop="datePublished">2017-02-26</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+        <p>  很早之前就想写一个博客，可是一直找不到好的tool。<br>  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。<br>  今天就用github pages搭建，github真是好东西，大家都知道。<br>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/26/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+          <p class="article-more-link">
+            <a href="/2017/02/27/hexo-1/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.weiparty.com/2017/02/26/hello-world/" data-id="cizr2m1il0000docxvlvv9v7p" class="article-share-link iconfont icon-forward">Share</a>
+      <a data-url="http://www.weiparty.com/2017/02/27/hexo-1/" data-id="cizsj6qop0002dscxzs2rwonr" class="article-share-link iconfont icon-forward">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
     </footer>
   </div>
   
@@ -167,18 +158,19 @@
 
   
 
+
+  <nav id="page-nav">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
+  </nav>
 </section>
         
           <aside id="sidebar">
   
     
-
-  
-    
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li></ul>
     </div>
   </div>
 
@@ -186,18 +178,28 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+      <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hexo/" style="font-size: 20px;">hexo</a>
     </div>
   </div>
 
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">二月 2017</a></li></ul>
     </div>
   </div>
 
@@ -205,9 +207,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/03/02/hexo-2/">hexo 认识</a>
+          </li>
         
           <li>
             <a href="/2017/02/27/hexo-1/">用hexo写博客</a>
