@@ -3,9 +3,11 @@
 
 
     
+    
+    
   <url>
     <loc>http://www.weiparty.com/2017/03/02/hexo-2/</loc>
-    <lastmod>2017-03-02T15:40:38.619Z</lastmod>
+    <lastmod>2017-03-06T08:43:27.612Z</lastmod>
     <data>
         <display>
         <title>hexo 认识</title>
@@ -25,7 +27,7 @@
     
   <url>
     <loc>http://www.weiparty.com/2017/02/27/hexo-1/</loc>
-    <lastmod>2017-03-02T15:35:52.692Z</lastmod>
+    <lastmod>2017-03-02T15:51:21.683Z</lastmod>
     <data>
         <display>
         <title>用hexo写博客</title>
