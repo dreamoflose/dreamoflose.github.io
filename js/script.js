@@ -43,6 +43,7 @@
       id = 'article-share-box-' + $this.attr('data-id'),
       offset = $this.offset();
 
+    var $title = $(this).parent().parent().find('.article-title').html();
     if ($('#' + id).length){
       var box = $('#' + id);
 
@@ -53,11 +54,16 @@
     } else {
       var html = [
         '<div id="' + id + '" class="article-share-box">',
-          '<input class="article-share-input" value="' + url + '">',
+          '<div class="article-share-links" style="border-bottom: 1px solid #eee;">',
+            '<a href="http://service.weibo.com/share/share.php?url=' + encodedUrl + '&title='+$title+'&appkey=255561932&searchPic=true" class="article-share-twitter iconfont icon-weibo" target="_blank" title="Weibo"></a>',
+            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook iconfont icon-weixin" target="_blank" title="Weixin"></a>',
+            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest iconfont icon-QQ" target="_blank" title="QQ"></a>',
+            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google iconfont icon-zhihu" target="_blank" title="zhihu"></a>',
+          '</div>',
           '<div class="article-share-links">',
             '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter iconfont icon-twitter" target="_blank" title="Twitter"></a>',
             '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook iconfont icon-facebook" target="_blank" title="Facebook"></a>',
-            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest iconfont icon-pinterestpinterest31" target="_blank" title="Pinterest"></a>',
+            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest iconfont icon-pinterest" target="_blank" title="Pinterest"></a>',
             '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google iconfont icon-Google" target="_blank" title="Google+"></a>',
           '</div>',
         '</div>'
