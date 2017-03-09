@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hello World | 博客_技术_个人网站_hexo - 吴小伟</title>
+  <title>用hexo写博客 | 博客_技术_个人网站_hexo - 吴小伟</title>
   <meta name="Keywords" content="博客,技术,个人网站,hexo - 吴小伟"/>
   <meta name="description" content="天上飞来一只猪,吴小伟的个人博客,欢迎大家评论"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -57,12 +57,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hexo-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/hello-world/" class="article-date">
-  <time datetime="2017-02-26T14:57:27.688Z" itemprop="datePublished">2017-02-26</time>
+    <a href="/blog/hexo-1/" class="article-date">
+  <time datetime="2017-02-27T12:36:34.000Z" itemprop="datePublished">2017-02-27</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -71,7 +75,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      用hexo写博客
     </h1>
   
 
@@ -79,40 +83,58 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>  很早之前就想写一个博客，可是一直找不到好的tool。<br>  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。<br>  今天就用github pages搭建，github真是好东西，大家都知道。<br><a id="more"></a></p>
+<h3 id="一-hexo"><a href="#一-hexo" class="headerlink" title="一.hexo"></a>一.hexo</h3><p>本地安装Node<br>1.安装 hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>2.建立一个博客文件夹，并初始化博客<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo init 文件名</div><div class="line">$ cd 文件名</div></pre></td></tr></table></figure></p>
+<p>3.安装依赖包,生成node_modules文件夹<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
+<h3 id="二-github"><a href="#二-github" class="headerlink" title="二.github"></a>二.github</h3><p>github账号<br>1.新建项目   用户名.github.io</p>
+<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages1.png" alt="wes"></p>
+<p>2.设置</p>
+<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages2.png" alt="wes"><br><img src="http://om1ci69wa.bkt.clouddn.com/git_pages3.png" alt="wes"></p>
+<p>3.自定义二级域名<br>新建CNAME文件,内容域名</p>
+<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages4.png" alt="wes"><br><img src="http://om1ci69wa.bkt.clouddn.com/git_pages5.png" alt="wes"></p>
+<p>4.域名服务商 设置域名解析地址</p>
+<p><img src="http://om1ci69wa.bkt.clouddn.com/git_pages6.png" alt="wes"></p>
+<h3 id="三-生成博客"><a href="#三-生成博客" class="headerlink" title="三.生成博客"></a>三.生成博客</h3><p>1.本地服务器</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate       #自动根据当前目录下文件,生成静态网页</div><div class="line">$ hexo server         #运行本地服务</div></pre></td></tr></table></figure>
+<p>打开 <a href="http://localhost:4000" target="_blank" rel="external">localhost:4000</a></p>
+<p>2.更新到远程<br>修改_config.yml<br>自定义域名:把CNAME文件放到当前目录source文件下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    type: git</div><div class="line">    repository: git@github.com:weswu/weswu.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure>
+<p>发布到github</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo deploy          #生成.deploy_git文件</div></pre></td></tr></table></figure>
+<p>End</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.weizai.party/2017/hello-world/" data-id="cj01p9aus0000uccxp9px4asc" class="article-share-link iconfont icon-forward">Share</a>
+      <a data-url="http://www.weizai.party/blog/hexo-1/" data-id="cj01pm9qr0002s4cx48eg935h" class="article-share-link iconfont icon-forward">Share</a>
       
-        <a href="http://www.weizai.party/2017/hello-world/#comments" class="article-comment-link iconfont icon-mark">Comments</a>
+        <a href="http://www.weizai.party/blog/hexo-1/#comments" class="article-comment-link iconfont icon-mark">Comments</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2017/hexo-1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/blog/hexo-2/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一页</strong>
       <div class="article-nav-title">
         
-          用hexo写博客
+          hexo 认识
         
       </div>
     </a>
   
+  
+    <a href="/blog/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一页</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
 </nav>
 
@@ -121,7 +143,7 @@
 
 
 <div class="duoshuo" id="comments">
-    <div class="ds-thread" data-thread-key="2017/hello-world/" data-title="Hello World" data-url="http://www.weizai.party/2017/hello-world/index.html"></div>
+    <div class="ds-thread" data-thread-key="blog/hexo-1/" data-title="用hexo写博客" data-url="http://www.weizai.party/blog/hexo-1/index.html"></div>
     <script type="text/javascript">
     var duoshuoQuery = {short_name:"wes"};
     (function() {
@@ -174,15 +196,15 @@
       <ul>
         
           <li>
-            <a href="/2017/hexo-2/">hexo 认识</a>
+            <a href="/blog/hexo-2/">hexo 认识</a>
           </li>
         
           <li>
-            <a href="/2017/hexo-1/">用hexo写博客</a>
+            <a href="/blog/hexo-1/">用hexo写博客</a>
           </li>
         
           <li>
-            <a href="/2017/hello-world/">Hello World</a>
+            <a href="/blog/hello-world/">Hello World</a>
           </li>
         
       </ul>

@@ -3,31 +3,9 @@
 
 
     
-    
-    
   <url>
-    <loc>http://www.weizai.party/2017/hexo-2/</loc>
-    <lastmod>2017-03-06T08:43:27.612Z</lastmod>
-    <data>
-        <display>
-        <title>hexo 认识</title>
-        <pubTime>2017-03-02T15:05:17.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.weizai.party/2017/hexo-1/</loc>
-    <lastmod>2017-03-02T15:51:21.683Z</lastmod>
+    <loc>http://www.weizai.party/blog/hexo-1/</loc>
+    <lastmod>2017-03-09T01:33:01.273Z</lastmod>
     <data>
         <display>
         <title>用hexo写博客</title>
@@ -48,7 +26,29 @@
 
     
   <url>
-    <loc>http://www.weizai.party/2017/hello-world/</loc>
+    <loc>http://www.weizai.party/blog/hexo-2/</loc>
+    <lastmod>2017-03-09T01:31:35.863Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 认识</title>
+        <pubTime>2017-03-02T15:05:17.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://www.weizai.party/blog/hello-world/</loc>
     <lastmod>2017-03-02T13:49:13.281Z</lastmod>
     <data>
         <display>

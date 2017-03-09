@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weizai.party/"/>
-  <updated>2017-03-06T08:43:27.612Z</updated>
+  <updated>2017-03-09T01:31:35.863Z</updated>
   <id>http://www.weizai.party/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>hexo 认识</title>
-    <link href="http://www.weizai.party/2017/hexo-2/"/>
-    <id>http://www.weizai.party/2017/hexo-2/</id>
+    <link href="http://www.weizai.party/blog/hexo-2/"/>
+    <id>http://www.weizai.party/blog/hexo-2/</id>
     <published>2017-03-02T15:05:17.000Z</published>
-    <updated>2017-03-06T08:43:27.612Z</updated>
+    <updated>2017-03-09T01:31:35.863Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png" alt="zespia"><br><a id="more"></a></p>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="语言"><a href="#语言" class="headerlink" title="语言:"></a>语言:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">language: zh-CN</div></pre></td></tr></table></figure>
@@ -48,10 +48,10 @@
   
   <entry>
     <title>用hexo写博客</title>
-    <link href="http://www.weizai.party/2017/hexo-1/"/>
-    <id>http://www.weizai.party/2017/hexo-1/</id>
+    <link href="http://www.weizai.party/blog/hexo-1/"/>
+    <id>http://www.weizai.party/blog/hexo-1/</id>
     <published>2017-02-27T12:36:34.000Z</published>
-    <updated>2017-03-02T15:51:21.683Z</updated>
+    <updated>2017-03-09T01:33:01.273Z</updated>
     
     <content type="html"><![CDATA[<p>  很早之前就想写一个博客，可是一直找不到好的tool。<br>  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。<br>  今天就用github pages搭建，github真是好东西，大家都知道。<br><a id="more"></a></p>
 <h3 id="一-hexo"><a href="#一-hexo" class="headerlink" title="一.hexo"></a>一.hexo</h3><p>本地安装Node<br>1.安装 hexo</p>
@@ -93,8 +93,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.weizai.party/2017/hello-world/"/>
-    <id>http://www.weizai.party/2017/hello-world/</id>
+    <link href="http://www.weizai.party/blog/hello-world/"/>
+    <id>http://www.weizai.party/blog/hello-world/</id>
     <published>2017-02-26T14:57:27.688Z</published>
     <updated>2017-03-02T13:49:13.281Z</updated>
     
