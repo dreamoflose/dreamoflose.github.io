@@ -5,9 +5,8 @@
     
     
     
-    
   <url>
-    <loc>http://www.weiparty.com/2017/03/02/hexo-2/</loc>
+    <loc>http://www.weizai.party/2017/hexo-2/</loc>
     <lastmod>2017-03-06T08:43:27.612Z</lastmod>
     <data>
         <display>
@@ -19,7 +18,7 @@
          
            
              
-              <breadCrumb title="hexo" url="http://www.weiparty.com/categories/hexo/"/>
+              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
           
         </display>
     </data>
@@ -27,7 +26,7 @@
 
     
   <url>
-    <loc>http://www.weiparty.com/2017/02/27/hexo-1/</loc>
+    <loc>http://www.weizai.party/2017/hexo-1/</loc>
     <lastmod>2017-03-02T15:51:21.683Z</lastmod>
     <data>
         <display>
@@ -41,7 +40,7 @@
          
            
              
-              <breadCrumb title="hexo" url="http://www.weiparty.com/categories/hexo/"/>
+              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
           
         </display>
     </data>
@@ -49,7 +48,7 @@
 
     
   <url>
-    <loc>http://www.weiparty.com/2017/02/26/hello-world/</loc>
+    <loc>http://www.weizai.party/2017/hello-world/</loc>
     <lastmod>2017-03-02T13:49:13.281Z</lastmod>
     <data>
         <display>

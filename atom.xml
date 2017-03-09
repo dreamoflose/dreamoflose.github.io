@@ -4,9 +4,9 @@
   <subtitle>伟仔</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.weiparty.com/"/>
+  <link href="http://www.weizai.party/"/>
   <updated>2017-03-06T08:43:27.612Z</updated>
-  <id>http://www.weiparty.com/</id>
+  <id>http://www.weizai.party/</id>
   
   <author>
     <name>wes</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>hexo 认识</title>
-    <link href="http://www.weiparty.com/2017/03/02/hexo-2/"/>
-    <id>http://www.weiparty.com/2017/03/02/hexo-2/</id>
+    <link href="http://www.weizai.party/2017/hexo-2/"/>
+    <id>http://www.weizai.party/2017/hexo-2/</id>
     <published>2017-03-02T15:05:17.000Z</published>
     <updated>2017-03-06T08:43:27.612Z</updated>
     
@@ -39,17 +39,17 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://www.weiparty.com/categories/hexo/"/>
+      <category term="hexo" scheme="http://www.weizai.party/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://www.weiparty.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.weizai.party/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>用hexo写博客</title>
-    <link href="http://www.weiparty.com/2017/02/27/hexo-1/"/>
-    <id>http://www.weiparty.com/2017/02/27/hexo-1/</id>
+    <link href="http://www.weizai.party/2017/hexo-1/"/>
+    <id>http://www.weizai.party/2017/hexo-1/</id>
     <published>2017-02-27T12:36:34.000Z</published>
     <updated>2017-03-02T15:51:21.683Z</updated>
     
@@ -82,19 +82,19 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://www.weiparty.com/categories/hexo/"/>
+      <category term="hexo" scheme="http://www.weizai.party/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://www.weiparty.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://www.weizai.party/tags/hexo/"/>
     
-      <category term="git" scheme="http://www.weiparty.com/tags/git/"/>
+      <category term="git" scheme="http://www.weizai.party/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.weiparty.com/2017/02/26/hello-world/"/>
-    <id>http://www.weiparty.com/2017/02/26/hello-world/</id>
+    <link href="http://www.weizai.party/2017/hello-world/"/>
+    <id>http://www.weizai.party/2017/hello-world/</id>
     <published>2017-02-26T14:57:27.688Z</published>
     <updated>2017-03-02T13:49:13.281Z</updated>
     
