@@ -1052,7 +1052,7 @@ a.article-title:hover {
   color: #ebebeb;
 }
 #footer {
-  background: #f5f6f5;
+  background: #fff;
   padding: 50px 0;
   border-top: 1px solid #ebebeb;
   color: #999;
@@ -1070,8 +1070,8 @@ a.article-title:hover {
 }
 #top {
   position: fixed;
-  bottom: 150px;
-  right: 50px;
+  bottom: 23px;
+  right: 23px;
   cursor: pointer;
   z-index: 999;
   -webkit-transition: all 0.5s ease 0s;
@@ -1080,6 +1080,26 @@ a.article-title:hover {
   transition: all 0.5s ease 0s;
   display: block;
   opacity: 1;
+  color: #4caf50;
+  font-size: 0;
+}
+#top:hover {
+  color: #4caf50;
+  text-shadow: 1px 1px 1px #82ce85;
+}
+#top.reveal {
+  font-size: 3em;
+}
+#top.reveal:active {
+  font-size: 3.5em;
+  -webkit-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
