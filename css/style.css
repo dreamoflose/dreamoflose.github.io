@@ -1053,8 +1053,7 @@ a.article-title:hover {
 }
 .timeline {
   position: relative;
-  width: 90%;
-  max-width: 1600px;
+  width: 100%;
   margin: 0px auto;
   padding: 20px 0 100px 0;
 }
@@ -1074,15 +1073,12 @@ a.article-title:hover {
 .timeline-entry.first {
   margin-top: 10px;
 }
-.timeline-entry.short {
-  margin-top: -50px;
-}
 .timeline-entry.odd .timeline-description {
-  margin-left: 58%;
+  margin-left: 60%;
 }
 .timeline-entry.odd .timeline-description:after {
   right: 100%;
-  border-right-color: #fff;
+  border-right-color: #eee;
 }
 .timeline-entry.odd .timeline-description:before {
   right: 100%;
@@ -1122,7 +1118,7 @@ a.article-title:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
-  width: 45%;
+  width: 40%;
   background-color: #fff;
   padding: 20px;
   -webkit-box-shadow: 0px 1px 2px #999;
@@ -1133,8 +1129,6 @@ a.article-title:hover {
 .timeline-description .timestamp {
   font-style: italic;
   font-size: 80%;
-}
-.timeline-description .timestamp .note {
   color: #777;
 }
 .timeline-description h2 {
@@ -1156,23 +1150,16 @@ a.article-title:hover {
 .timeline-description h2:hover i {
   display: block;
 }
-.timeline-description ulp {
-  margin: 5px 0 10px 0;
-  -webkit-margin-before: 5px;
-  -webkit-margin-after: 10px;
-}
 .timeline-description img {
   width: 100%;
   max-width: 150px;
   display: block;
 }
-.timeline-description .landscape img {
-  max-width: 200px;
-}
 .timeline-description:after {
   top: 20px;
   height: 0;
   width: 0;
+  content: '';
   position: absolute;
   pointer-events: none;
   margin-top: -10px;
@@ -1183,6 +1170,7 @@ a.article-title:hover {
   top: 21px;
   height: 0;
   width: 0;
+  content: '';
   position: absolute;
   pointer-events: none;
   margin-top: -9px;
@@ -1223,11 +1211,8 @@ a.article-title:hover {
     right: 100%;
     border-right-color: #fff;
   }
-  .timeline-entry.short {
-    margin-top: 25px;
-  }
   .timeline-description {
-    width: 90%;
+    width: 80%;
   }
 }
 #footer {

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weizai.party/"/>
-  <updated>2017-03-20T06:07:55.475Z</updated>
+  <updated>2017-03-20T06:27:13.841Z</updated>
   <id>http://www.weizai.party/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://www.weizai.party/blog/postgresql-psqlException/"/>
     <id>http://www.weizai.party/blog/postgresql-psqlException/</id>
     <published>2017-03-20T10:11:18.000Z</published>
-    <updated>2017-03-20T06:07:55.475Z</updated>
+    <updated>2017-03-20T06:27:13.841Z</updated>
     
     <content type="html"><![CDATA[<h3 id="navicat连接正常-pg数据库连接失败"><a href="#navicat连接正常-pg数据库连接失败" class="headerlink" title="navicat连接正常,pg数据库连接失败"></a>navicat连接正常,pg数据库连接失败</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">2017-03-20 13:31:57,330 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2e179e89 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)</div><div class="line">	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)</div><div class="line">	at org.postgresql.jdbc2.AbstractJdbc2Connection.&lt;init&gt;(AbstractJdbc2Connection.java:136)</div><div class="line">	at org.postgresql.jdbc3.AbstractJdbc3Connection.&lt;init&gt;(AbstractJdbc3Connection.java:29)</div><div class="line">	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.&lt;init&gt;(AbstractJdbc3gConnection.java:21)</div><div class="line">	at org.postgresql.jdbc4.AbstractJdbc4Connection.&lt;init&gt;(AbstractJdbc4Connection.java:31)</div><div class="line">	at org.postgresql.jdbc4.Jdbc4Connection.&lt;init&gt;(Jdbc4Connection.java:24)</div><div class="line">	at org.postgresql.Driver.makeConnection(Driver.java:410)</div><div class="line">	at org.postgresql.Driver.connect(Driver.java:280)</div><div class="line">	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)</div><div class="line">	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)</div><div class="line">	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)</div><div class="line">Caused by: java.net.SocketException: Connection reset</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:196)</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:122)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)</div><div class="line">	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:269)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:376)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)</div><div class="line">	... 16 more</div><div class="line">2017-03-20 13:31:57,331 WARN [org.hibernate.util.JDBCExceptionReporter:100] - &lt;SQL Error: 0, SQLState: null&gt;</div><div class="line">2017-03-20 13:31:57,331 ERROR [org.hibernate.util.JDBCExceptionReporter:101] - &lt;Connections could not be acquired from the underlying database!&gt;</div><div class="line">2017-03-20 13:31:57,331 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1f19e3ea -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>修改配置文件–安装目录/data/pg_hba.conf</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">host    all             all             127.0.0.1/32            md5</div></pre></td></tr></table></figure>
-<p>pg默认是密码以md5形式认证,改为trust明文密码传输</p>
+<p>pg默认是以md5形式的密码认证,改为trust明文密码认证</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">host    all             all             127.0.0.1/32            trust</div></pre></td></tr></table></figure>
 <p>End</p>
 ]]></content>
@@ -50,8 +50,8 @@
   
   <entry>
     <title>hexo 认识</title>
-    <link href="http://www.weizai.party/blog/hexo-2/"/>
-    <id>http://www.weizai.party/blog/hexo-2/</id>
+    <link href="http://www.weizai.party/blog/hexo-configuration/"/>
+    <id>http://www.weizai.party/blog/hexo-configuration/</id>
     <published>2017-03-02T15:05:17.000Z</published>
     <updated>2017-03-20T05:53:15.470Z</updated>
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>用hexo写博客</title>
-    <link href="http://www.weizai.party/blog/hexo-1/"/>
-    <id>http://www.weizai.party/blog/hexo-1/</id>
+    <link href="http://www.weizai.party/blog/hexo-buile-blog/"/>
+    <id>http://www.weizai.party/blog/hexo-buile-blog/</id>
     <published>2017-02-27T12:36:34.000Z</published>
     <updated>2017-03-09T01:33:01.273Z</updated>
     

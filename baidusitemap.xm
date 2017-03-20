@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://www.weizai.party/blog/postgresql-psqlException/</loc>
-    <lastmod>2017-03-20T06:07:55.475Z</lastmod>
+    <lastmod>2017-03-20T06:27:13.841Z</lastmod>
     <data>
         <display>
         <title>eclipse项目启动 postgresql数据库连接失败</title>
@@ -28,7 +28,7 @@
 
     
   <url>
-    <loc>http://www.weizai.party/blog/hexo-2/</loc>
+    <loc>http://www.weizai.party/blog/hexo-configuration/</loc>
     <lastmod>2017-03-20T05:53:15.470Z</lastmod>
     <data>
         <display>
@@ -48,7 +48,7 @@
 
     
   <url>
-    <loc>http://www.weizai.party/blog/hexo-1/</loc>
+    <loc>http://www.weizai.party/blog/hexo-buile-blog/</loc>
     <lastmod>2017-03-09T01:33:01.273Z</lastmod>
     <data>
         <display>
