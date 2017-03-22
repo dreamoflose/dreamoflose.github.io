@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.weizai.party/blog/hexo-configuration/</loc>
+    <lastmod>2017-03-22T16:21:55.429Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 认识</title>
+        <pubTime>2017-03-02T15:05:17.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.weizai.party/blog/postgresql-psqlException/</loc>
     <lastmod>2017-03-20T06:27:13.841Z</lastmod>
     <data>
@@ -21,26 +41,6 @@
            
              
               <breadCrumb title="eclipse" url="http://www.weizai.party/categories/eclipse/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.weizai.party/blog/hexo-configuration/</loc>
-    <lastmod>2017-03-20T05:53:15.470Z</lastmod>
-    <data>
-        <display>
-        <title>hexo 认识</title>
-        <pubTime>2017-03-02T15:05:17.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="http://www.weizai.party/categories/hexo/"/>
           
         </display>
     </data>

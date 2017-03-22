@@ -59,80 +59,167 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-postgresql-psqlException" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/postgresql-psqlException/" class="article-date">
+  <time datetime="2017-03-20T10:11:18.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/eclipse/">eclipse</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/postgresql-psqlException/">eclipse项目启动 postgresql数据库连接失败</a>
+    </h1>
+  
+
+      </header>
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="navicat连接正常-pg数据库连接失败"><a href="#navicat连接正常-pg数据库连接失败" class="headerlink" title="navicat连接正常,pg数据库连接失败"></a>navicat连接正常,pg数据库连接失败</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">2017-03-20 13:31:57,330 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2e179e89 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)</div><div class="line">	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)</div><div class="line">	at org.postgresql.jdbc2.AbstractJdbc2Connection.&lt;init&gt;(AbstractJdbc2Connection.java:136)</div><div class="line">	at org.postgresql.jdbc3.AbstractJdbc3Connection.&lt;init&gt;(AbstractJdbc3Connection.java:29)</div><div class="line">	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.&lt;init&gt;(AbstractJdbc3gConnection.java:21)</div><div class="line">	at org.postgresql.jdbc4.AbstractJdbc4Connection.&lt;init&gt;(AbstractJdbc4Connection.java:31)</div><div class="line">	at org.postgresql.jdbc4.Jdbc4Connection.&lt;init&gt;(Jdbc4Connection.java:24)</div><div class="line">	at org.postgresql.Driver.makeConnection(Driver.java:410)</div><div class="line">	at org.postgresql.Driver.connect(Driver.java:280)</div><div class="line">	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)</div><div class="line">	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)</div><div class="line">	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)</div><div class="line">Caused by: java.net.SocketException: Connection reset</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:196)</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:122)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)</div><div class="line">	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:269)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:376)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)</div><div class="line">	... 16 more</div><div class="line">2017-03-20 13:31:57,331 WARN [org.hibernate.util.JDBCExceptionReporter:100] - &lt;SQL Error: 0, SQLState: null&gt;</div><div class="line">2017-03-20 13:31:57,331 ERROR [org.hibernate.util.JDBCExceptionReporter:101] - &lt;Connections could not be acquired from the underlying database!&gt;</div><div class="line">2017-03-20 13:31:57,331 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1f19e3ea -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/blog/postgresql-psqlException/#more">全文阅读 »</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.weizai.party/blog/postgresql-psqlException/" data-id="cj0l5n9180002lwcxpxrgmjh5" class="article-share-link iconfont icon-forward">Share</a>
+      
+        <a href="http://www.weizai.party/blog/postgresql-psqlException/#comments" class="article-comment-link iconfont icon-mark">Comments</a>
       
       
-      <section class="archives-wrap">
-        <div class="timeline">
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eclipse/">eclipse</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/postgresql/">postgresql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql/">sql</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexo-configuration" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/hexo-configuration/" class="article-date">
+  <time datetime="2017-03-02T15:05:17.000Z" itemprop="datePublished">2017-03-02</time>
+</a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
     
-          <div class="timeline-entry even first" data-category="">
-		  <div class="timeline-icon green">1</div>
-			<div class="timeline-description">
-        <span class="timestamp"><time datetime="2017-03-20T10:11:18.000Z" itemprop="datePublished">March 20, 2017</time>
-</span>
+<div class="article-gallery">
+  <div class="article-gallery-photos">
+    
+      <a class="article-gallery-img fancybox" href="https://hexo.io/hexo-theme-landscape/assets/wallpaper-2572384.jpg" rel="gallery_cj0l5n9180007lwcxgfjzot16">
+        <img src="https://hexo.io/hexo-theme-landscape/assets/wallpaper-2572384.jpg" itemprop="image">
+      </a>
+    
+  </div>
+</div>
+
+    
+      <header class="article-header">
         
   
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/blog/postgresql-psqlException/"><i class="fa fa-link iconfont icon-link"></i>eclipse项目启动 postgresql数据库连接失败</a>
-    </h2>
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/hexo-configuration/">hexo 认识</a>
+    </h1>
   
 
-        <div class="captioned-image image-right">
-          <a href=""></a>
-        </div>
-			</div>
-		</div>
+      </header>
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png" alt="zespia"><br>
+        
+          <p class="article-more-link">
+            <a href="/blog/hexo-configuration/#more">全文阅读 »</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.weizai.party/blog/hexo-configuration/" data-id="cj0l5n9180007lwcxgfjzot16" class="article-share-link iconfont icon-forward">Share</a>
+      
+        <a href="http://www.weizai.party/blog/hexo-configuration/#comments" class="article-comment-link iconfont icon-mark">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
   
+</article>
+
+
+  
+    <article id="post-hexo-buile-blog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/hexo-buile-blog/" class="article-date">
+  <time datetime="2017-02-27T12:36:34.000Z" itemprop="datePublished">2017-02-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
     
     
-    
-          <div class="timeline-entry odd" data-category="">
-		  <div class="timeline-icon green">2</div>
-			<div class="timeline-description">
-        <span class="timestamp"><time datetime="2017-03-02T15:05:17.000Z" itemprop="datePublished">March 2, 2017</time>
-</span>
+      <header class="article-header">
         
   
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/blog/hexo-configuration/"><i class="fa fa-link iconfont icon-link"></i>hexo 认识</a>
-    </h2>
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/hexo-buile-blog/">用hexo写博客</a>
+    </h1>
   
 
-        <div class="captioned-image image-right">
-          <a href=""></a>
-        </div>
-			</div>
-		</div>
+      </header>
     
-  
-    
-    
-    
-          <div class="timeline-entry even" data-category="">
-		  <div class="timeline-icon green">3</div>
-			<div class="timeline-description">
-        <span class="timestamp"><time datetime="2017-02-27T12:36:34.000Z" itemprop="datePublished">February 27, 2017</time>
-</span>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>  很早之前就想写一个博客，可是一直找不到好的tool。<br>  用Wordpress搭建过，感觉page不好搞，数据库也不是mysql，后来… 直到reship system。<br>  今天就用github pages搭建，github真是好东西，大家都知道。<br>
         
-  
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/blog/hexo-buile-blog/"><i class="fa fa-link iconfont icon-link"></i>用hexo写博客</a>
-    </h2>
-  
+          <p class="article-more-link">
+            <a href="/blog/hexo-buile-blog/#more">全文阅读 »</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://www.weizai.party/blog/hexo-buile-blog/" data-id="cj0l5n9180004lwcxmn3mmuk5" class="article-share-link iconfont icon-forward">Share</a>
+      
+        <a href="http://www.weizai.party/blog/hexo-buile-blog/#comments" class="article-comment-link iconfont icon-mark">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
 
-        <div class="captioned-image image-right">
-          <a href=""></a>
-        </div>
-			</div>
-		</div>
-    
+    </footer>
+  </div>
+  
+</article>
+
+
   
   
-    </div></section>
+  <nav id="page-nav">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
+  </nav>
   
 </section>
         
