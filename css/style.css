@@ -1286,14 +1286,14 @@ a.article-title:hover {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
+  background: #f7f7f7;
   margin: 0 -20px;
   padding: 15px 20px;
   border-style: solid;
   border-color: #ebebeb;
   border-width: 1px 0;
   overflow: auto;
-  color: #ccc;
+  color: #4d4d4c;
   line-height: 22.400000000000002px;
 }
 .article-entry .highlight .gutter pre,
@@ -1360,7 +1360,7 @@ a.article-title:hover {
   border-style: solid;
   border-color: #ebebeb;
   border-width: 1px 0;
-  background: #2d2d2d;
+  background: #f7f7f7;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -1386,7 +1386,7 @@ a.article-title:hover {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #f7f7f7;
   color: #999;
   font: 0.85em "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;

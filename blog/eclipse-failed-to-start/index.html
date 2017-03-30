@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head class="page-book">
+<head class="page-blog">
   <meta charset="utf-8">
-  <title>book-1 | 博客_技术_个人网站_hexo - 吴小伟</title>
+  <title>eclipse项目启动失败 | 博客_技术_个人网站_hexo - 吴小伟</title>
   <meta name="Keywords" content="博客,技术,个人网站,hexo - 吴小伟"/>
   <meta name="description" content="天上飞来一只猪,吴小伟的个人博客,欢迎大家评论"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -58,12 +58,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="[book]-undefined" class="article article-type-[book]" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-eclipse-failed-to-start" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/book/book-1.html" class="article-date">
-  <time datetime="2017-03-06T08:55:49.000Z" itemprop="datePublished">2017-03-06</time>
+    <a href="/blog/eclipse-failed-to-start/" class="article-date">
+  <time datetime="2017-03-28T10:11:18.000Z" itemprop="datePublished">2017-03-28</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/eclipse/">eclipse</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -72,7 +76,7 @@
         
   
     <h2 class="article-title" itemprop="name">
-      <i class="fa fa-link iconfont icon-link"></i>book-1
+      <i class="fa fa-link iconfont icon-link"></i>eclipse项目启动失败
     </h2>
   
 
@@ -80,17 +84,36 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一."></a>问题一.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">FATAL ERROR in native method: JDWP No transports initialized, jvmtiError=AGENT_ERROR_TRANSPORT_INIT(197)</div><div class="line">ERROR: transport error 202: unable to create socket: Provider initialization failed (check %SystemRoot%)</div><div class="line">ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)</div><div class="line">JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [../../../src/share/back/debugInit.c:750]</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>原因:一般是dubug运行时报错 Run-Debug<br>解决:用正常的运行方式启动项目 Run-Run</p>
+<h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二."></a>问题二.</h3><pre><code>2017-03-28 12:42:28,616 ERROR [org.springframework.web.context.ContextLoader:220] - &lt;Context initialization failed&gt;
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;dubboServiceImpl&apos; defined in file [E:\workspace\eclipse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Abbcc\WEB-INF\classes\com\abbcc\dubbo\impl\DubboServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.NumberFormatException: For input string: &quot;0:0:0:7cde:61d1:c88d:a6e9%33:20880&quot;
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
+    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://www.weizai.party/book/book-1.html" data-id="cj0w5f24e00013ccxkc1s91kp" class="article-share-link iconfont icon-forward">Share</a>
+      <a data-url="http://www.weizai.party/blog/eclipse-failed-to-start/" data-id="cj0w5f24a00003ccxb02s13d1" class="article-share-link iconfont icon-forward">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/eclipse/">eclipse</a></li></ul>
+
     </footer>
   </div>
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/blog/win-TCP/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一页</strong>
+      <div class="article-nav-title">eclipse项目启动失败</div>
+    </a>
+  
+</nav>
+
   
 </article>
 

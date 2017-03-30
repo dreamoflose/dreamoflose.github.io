@@ -43,7 +43,8 @@
       id = 'article-share-box-' + $this.attr('data-id'),
       offset = $this.offset();
 
-    var $title = $(this).parent().parent().find('.article-title').html();
+    var $title = $(this).parent().parent().find('.article-title').text();
+
     if ($('#' + id).length){
       var box = $('#' + id);
 
