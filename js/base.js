@@ -151,6 +151,17 @@
   var root_s = document.getElementsByTagName('script')[0];
   root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
   /*-- End CNZZ Analytics --*/
+  /*-- baidu Analytics --*/
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?5311832a833e7e1c3a4e0144704461a3";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  /*-- End baidu Analytics --*/
+
+
 
   /*back top*/
    function mScrollTop(element, settings) {

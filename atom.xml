@@ -98,11 +98,11 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
       <category term="eclipse" scheme="http://www.weizai.party/categories/eclipse/"/>
     
     
-      <category term="eclipse" scheme="http://www.weizai.party/tags/eclipse/"/>
-    
       <category term="postgresql" scheme="http://www.weizai.party/tags/postgresql/"/>
     
       <category term="sql" scheme="http://www.weizai.party/tags/sql/"/>
+    
+      <category term="eclipse" scheme="http://www.weizai.party/tags/eclipse/"/>
     
   </entry>
   

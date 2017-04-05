@@ -908,7 +908,7 @@ a.article-title:hover {
   max-width: 100%;
   margin: 0 auto;
 }
-.ds-powered-by {
+#uyan-copyright {
   display: none;
 }
 #comments {
@@ -1071,7 +1071,7 @@ a.article-title:hover {
 }
 .timeline-entry {
   position: relative;
-  margin-top: -35px;
+  margin-top: 0;
 }
 .timeline-entry.first {
   margin-top: 10px;
