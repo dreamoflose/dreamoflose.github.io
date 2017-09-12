@@ -3,8 +3,8 @@
 include_once "wxBizMsgCrypt.php";
 
 // 第三方发送消息给公众平台
-$encodingAesKey = "7tLN5xQj6j9sFjvBp9U4utB9f5ky3hoIFFaqjzHI9I4";
-$token = "weixin";
+$encodingAesKey = "iT9sBnPndNIfCzPxNz4VPrub6k4CRRIMGjsapWvdg6F";
+$token = "wes";
 $timeStamp = "1409304348";
 $nonce = "xxxxxx";
 $appId = "wxa9dd60e0591fbdb2";
