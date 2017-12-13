@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weizai.party/"/>
-  <updated>2017-03-28T09:17:46.357Z</updated>
+  <updated>2017-06-05T07:54:39.442Z</updated>
   <id>http://www.weizai.party/</id>
   
   <author>
@@ -16,93 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>eclipse项目启动失败</title>
-    <link href="http://www.weizai.party/blog/eclipse-failed-to-start/"/>
-    <id>http://www.weizai.party/blog/eclipse-failed-to-start/</id>
-    <published>2017-03-28T10:11:18.000Z</published>
-    <updated>2017-03-28T09:17:46.357Z</updated>
+    <title>vue2.0 做个app</title>
+    <link href="http://www.weizai.party/blog/vue-app-1/"/>
+    <id>http://www.weizai.party/blog/vue-app-1/</id>
+    <published>2017-06-05T10:00:00.000Z</published>
+    <updated>2017-06-05T07:54:39.442Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一."></a>问题一.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">FATAL ERROR in native method: JDWP No transports initialized, jvmtiError=AGENT_ERROR_TRANSPORT_INIT(197)</div><div class="line">ERROR: transport error 202: unable to create socket: Provider initialization failed (check %SystemRoot%)</div><div class="line">ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)</div><div class="line">JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [../../../src/share/back/debugInit.c:750]</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>原因:一般是dubug运行时报错 Run-Debug<br>解决:用正常的运行方式启动项目 Run-Run</p>
-<h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二."></a>问题二.</h3><pre><code>2017-03-28 12:42:28,616 ERROR [org.springframework.web.context.ContextLoader:220] - &lt;Context initialization failed&gt;
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;dubboServiceImpl&apos; defined in file [E:\workspace\eclipse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Abbcc\WEB-INF\classes\com\abbcc\dubbo\impl\DubboServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.NumberFormatException: For input string: &quot;0:0:0:7cde:61d1:c88d:a6e9%33:20880&quot;
-    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
-    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;问题一&quot;&gt;&lt;a href=&quot;#问题一&quot; class=&quot;headerlink&quot; title=&quot;问题一.&quot;&gt;&lt;/a&gt;问题一.&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;FATAL ERROR in native method: JDWP No transports initialized, jvmtiError=AGENT_ERROR_TRANSPORT_INIT(197)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;ERROR: transport error 202: unable to create socket: Provider initialization failed (check %SystemRoot%)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [../../../src/share/back/debugInit.c:750]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="eclipse" scheme="http://www.weizai.party/categories/eclipse/"/>
-    
-    
-      <category term="eclipse" scheme="http://www.weizai.party/tags/eclipse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>eclipse项目启动失败</title>
-    <link href="http://www.weizai.party/blog/win-TCP/"/>
-    <id>http://www.weizai.party/blog/win-TCP/</id>
-    <published>2017-03-28T10:11:18.000Z</published>
-    <updated>2017-03-28T09:17:46.357Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一."></a>问题一.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">FATAL ERROR in native method: JDWP No transports initialized, jvmtiError=AGENT_ERROR_TRANSPORT_INIT(197)</div><div class="line">ERROR: transport error 202: unable to create socket: Provider initialization failed (check %SystemRoot%)</div><div class="line">ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)</div><div class="line">JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [../../../src/share/back/debugInit.c:750]</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>原因:一般是dubug运行时报错 Run-Debug<br>解决:用正常的运行方式启动项目 Run-Run</p>
-<h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二."></a>问题二.</h3><pre><code>2017-03-28 12:42:28,616 ERROR [org.springframework.web.context.ContextLoader:220] - &lt;Context initialization failed&gt;
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;dubboServiceImpl&apos; defined in file [E:\workspace\eclipse\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Abbcc\WEB-INF\classes\com\abbcc\dubbo\impl\DubboServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.NumberFormatException: For input string: &quot;0:0:0:7cde:61d1:c88d:a6e9%33:20880&quot;
-    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:527)
-    at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;问题一&quot;&gt;&lt;a href=&quot;#问题一&quot; class=&quot;headerlink&quot; title=&quot;问题一.&quot;&gt;&lt;/a&gt;问题一.&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;FATAL ERROR in native method: JDWP No transports initialized, jvmtiError=AGENT_ERROR_TRANSPORT_INIT(197)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;ERROR: transport error 202: unable to create socket: Provider initialization failed (check %SystemRoot%)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [../../../src/share/back/debugInit.c:750]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="eclipse" scheme="http://www.weizai.party/categories/eclipse/"/>
-    
-    
-      <category term="eclipse" scheme="http://www.weizai.party/tags/eclipse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>eclipse项目启动 postgresql数据库连接失败</title>
-    <link href="http://www.weizai.party/blog/postgresql-psqlException/"/>
-    <id>http://www.weizai.party/blog/postgresql-psqlException/</id>
-    <published>2017-03-20T10:11:18.000Z</published>
-    <updated>2017-03-20T06:27:13.841Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="navicat连接正常-pg数据库连接失败"><a href="#navicat连接正常-pg数据库连接失败" class="headerlink" title="navicat连接正常,pg数据库连接失败"></a>navicat连接正常,pg数据库连接失败</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">2017-03-20 13:31:57,330 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2e179e89 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)</div><div class="line">	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)</div><div class="line">	at org.postgresql.jdbc2.AbstractJdbc2Connection.&lt;init&gt;(AbstractJdbc2Connection.java:136)</div><div class="line">	at org.postgresql.jdbc3.AbstractJdbc3Connection.&lt;init&gt;(AbstractJdbc3Connection.java:29)</div><div class="line">	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.&lt;init&gt;(AbstractJdbc3gConnection.java:21)</div><div class="line">	at org.postgresql.jdbc4.AbstractJdbc4Connection.&lt;init&gt;(AbstractJdbc4Connection.java:31)</div><div class="line">	at org.postgresql.jdbc4.Jdbc4Connection.&lt;init&gt;(Jdbc4Connection.java:24)</div><div class="line">	at org.postgresql.Driver.makeConnection(Driver.java:410)</div><div class="line">	at org.postgresql.Driver.connect(Driver.java:280)</div><div class="line">	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)</div><div class="line">	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)</div><div class="line">	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)</div><div class="line">	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)</div><div class="line">	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)</div><div class="line">Caused by: java.net.SocketException: Connection reset</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:196)</div><div class="line">	at java.net.SocketInputStream.read(SocketInputStream.java:122)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)</div><div class="line">	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)</div><div class="line">	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:269)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:376)</div><div class="line">	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)</div><div class="line">	... 16 more</div><div class="line">2017-03-20 13:31:57,331 WARN [org.hibernate.util.JDBCExceptionReporter:100] - &lt;SQL Error: 0, SQLState: null&gt;</div><div class="line">2017-03-20 13:31:57,331 ERROR [org.hibernate.util.JDBCExceptionReporter:101] - &lt;Connections could not be acquired from the underlying database!&gt;</div><div class="line">2017-03-20 13:31:57,331 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1f19e3ea -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &gt;</div><div class="line">org.postgresql.util.PSQLException: 尝试连线已失败。</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>修改配置文件–安装目录/data/pg_hba.conf</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">host    all             all             127.0.0.1/32            md5</div></pre></td></tr></table></figure>
-<p>pg默认是以md5形式的密码认证,改为trust明文密码认证</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">host    all             all             127.0.0.1/32            trust</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h3 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h3><p>前提：<code>Atom,git,node</code></p>
+<p>开启</p>
 <p>End</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;navicat连接正常-pg数据库连接失败&quot;&gt;&lt;a href=&quot;#navicat连接正常-pg数据库连接失败&quot; class=&quot;headerlink&quot; title=&quot;navicat连接正常,pg数据库连接失败&quot;&gt;&lt;/a&gt;navicat连接正常,pg数据库连接失败&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;2017-03-20 13:31:57,330 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &amp;lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@2e179e89 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;org.postgresql.util.PSQLException: 尝试连线已失败。&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:225)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.jdbc2.AbstractJdbc2Connection.&amp;lt;init&amp;gt;(AbstractJdbc2Connection.java:136)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.jdbc3.AbstractJdbc3Connection.&amp;lt;init&amp;gt;(AbstractJdbc3Connection.java:29)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.&amp;lt;init&amp;gt;(AbstractJdbc3gConnection.java:21)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.jdbc4.AbstractJdbc4Connection.&amp;lt;init&amp;gt;(AbstractJdbc4Connection.java:31)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.jdbc4.Jdbc4Connection.&amp;lt;init&amp;gt;(Jdbc4Connection.java:24)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.Driver.makeConnection(Driver.java:410)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.Driver.connect(Driver.java:280)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Caused by: java.net.SocketException: Connection reset&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at java.net.SocketInputStream.read(SocketInputStream.java:196)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at java.net.SocketInputStream.read(SocketInputStream.java:122)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:269)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:376)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:173)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	... 16 more&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2017-03-20 13:31:57,331 WARN [org.hibernate.util.JDBCExceptionReporter:100] - &amp;lt;SQL Error: 0, SQLState: null&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2017-03-20 13:31:57,331 ERROR [org.hibernate.util.JDBCExceptionReporter:101] - &amp;lt;Connections could not be acquired from the underlying database!&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2017-03-20 13:31:57,331 WARN [com.mchange.v2.resourcepool.BasicResourcePool:1841] - &amp;lt;com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1f19e3ea -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: &amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;org.postgresql.util.PSQLException: 尝试连线已失败。&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h3&gt;&lt;p&gt;前提：&lt;code&gt;Atom,git,node&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;开启&lt;/p&gt;
+&lt;p&gt;End&lt;/p&gt;
+
     
     </summary>
     
-      <category term="eclipse" scheme="http://www.weizai.party/categories/eclipse/"/>
+      <category term="vue" scheme="http://www.weizai.party/categories/vue/"/>
     
     
-      <category term="postgresql" scheme="http://www.weizai.party/tags/postgresql/"/>
+      <category term="vue" scheme="http://www.weizai.party/tags/vue/"/>
     
-      <category term="sql" scheme="http://www.weizai.party/tags/sql/"/>
-    
-      <category term="eclipse" scheme="http://www.weizai.party/tags/eclipse/"/>
+      <category term="app" scheme="http://www.weizai.party/tags/app/"/>
     
   </entry>
   
@@ -111,7 +50,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
     <link href="http://www.weizai.party/blog/hexo-configuration/"/>
     <id>http://www.weizai.party/blog/hexo-configuration/</id>
     <published>2017-03-02T15:05:17.000Z</published>
-    <updated>2017-03-22T16:21:55.429Z</updated>
+    <updated>2017-03-22T16:21:55.430Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png" alt="zespia"><br><a id="more"></a></p>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="语言"><a href="#语言" class="headerlink" title="语言:"></a>语言:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">language: zh-CN</div></pre></td></tr></table></figure>
@@ -179,35 +118,6 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
       <category term="hexo" scheme="http://www.weizai.party/tags/hexo/"/>
     
       <category term="git" scheme="http://www.weizai.party/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.weizai.party/blog/hello-world/"/>
-    <id>http://www.weizai.party/blog/hello-world/</id>
-    <published>2017-02-26T14:57:27.688Z</published>
-    <updated>2017-03-02T13:49:13.281Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
     
   </entry>
   
