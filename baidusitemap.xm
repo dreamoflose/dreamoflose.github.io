@@ -4,30 +4,8 @@
 
     
   <url>
-    <loc>http://www.weizai.party/blog/vue-app-1/</loc>
-    <lastmod>2017-06-05T07:54:39.442Z</lastmod>
-    <data>
-        <display>
-        <title>vue2.0 做个app</title>
-        <pubTime>2017-06-05T10:00:00.000Z</pubTime>
-        
-        <tag>vue</tag>
-         
-        <tag>app</tag>
-         
-         
-           
-             
-              <breadCrumb title="vue" url="http://www.weizai.party/categories/vue/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.weizai.party/blog/hexo-configuration/</loc>
-    <lastmod>2017-03-22T16:21:55.430Z</lastmod>
+    <lastmod>2019-04-20T18:28:23.227Z</lastmod>
     <data>
         <display>
         <title>hexo 认识</title>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.weizai.party/"/>
-  <updated>2017-06-05T07:54:39.442Z</updated>
+  <updated>2019-04-20T18:28:23.227Z</updated>
   <id>http://www.weizai.party/</id>
   
   <author>
@@ -16,43 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>vue2.0 做个app</title>
-    <link href="http://www.weizai.party/blog/vue-app-1/"/>
-    <id>http://www.weizai.party/blog/vue-app-1/</id>
-    <published>2017-06-05T10:00:00.000Z</published>
-    <updated>2017-06-05T07:54:39.442Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h3><p>前提：<code>Atom,git,node</code></p>
-<p>开启</p>
-<p>End</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;基本配置&quot;&gt;&lt;a href=&quot;#基本配置&quot; class=&quot;headerlink&quot; title=&quot;基本配置&quot;&gt;&lt;/a&gt;基本配置&lt;/h3&gt;&lt;p&gt;前提：&lt;code&gt;Atom,git,node&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;开启&lt;/p&gt;
-&lt;p&gt;End&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="vue" scheme="http://www.weizai.party/categories/vue/"/>
-    
-    
-      <category term="vue" scheme="http://www.weizai.party/tags/vue/"/>
-    
-      <category term="app" scheme="http://www.weizai.party/tags/app/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo 认识</title>
     <link href="http://www.weizai.party/blog/hexo-configuration/"/>
     <id>http://www.weizai.party/blog/hexo-configuration/</id>
     <published>2017-03-02T15:05:17.000Z</published>
-    <updated>2017-03-22T16:21:55.430Z</updated>
+    <updated>2019-04-20T18:28:23.227Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png" alt="zespia"><br><a id="more"></a></p>
+    <content type="html"><![CDATA[<p>  hexo配置<br><a id="more"></a></p>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><h3 id="语言"><a href="#语言" class="headerlink" title="语言:"></a>语言:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">language: zh-CN</div></pre></td></tr></table></figure>
 <h3 id="分页"><a href="#分页" class="headerlink" title="分页"></a>分页</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">per_page: 2</div></pre></td></tr></table></figure>
 <h3 id="推广页面"><a href="#推广页面" class="headerlink" title="推广页面"></a>推广页面</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">  hexo-generator-feed:</div><div class="line">  hexo-generator-baidu-sitemap:</div><div class="line"></div><div class="line"># sitemap</div><div class="line">baidusitemap:</div><div class="line">  path: baidusitemap.xm</div></pre></td></tr></table></figure>
@@ -65,7 +35,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://zespia.tw/blog/2015/11/21/redux-1-to-3/53131016.png&quot; alt=&quot;zespia&quot;&gt;&lt;br&gt;
+      &lt;p&gt;  hexo配置&lt;br&gt;
     
     </summary>
     
